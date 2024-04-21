@@ -10,7 +10,7 @@ minikube ssh                   # to enter inside minikube cluser & get access of
 exit                           # to logout minikube
 
 ## commands to communicate with cluster(GUI/CLI)
-## we can not run commands inside minikube
+## we can not run commands inside cluster
 
  kubectl version        # check version
  kubectl cluster-info       #to get cluster info & check kubectl cummunicat with cluster or not 
