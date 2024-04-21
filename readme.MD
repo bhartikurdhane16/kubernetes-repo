@@ -56,5 +56,5 @@ kube-system: This namespace contains Kubernetes system resources and components 
 
  kubectl get pods --namespace kube-system     # list kube-system pods
 
-
+## create 
 
