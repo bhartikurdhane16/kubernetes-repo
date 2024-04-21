@@ -44,4 +44,4 @@ kube-public: This created automatically and is accessible to all users.
 kube-system: This namespace contains Kubernetes system resources and components that are essential for the functioning of the cluster.
  It includes components like kube-proxy, kube-dns, kube-scheduler, kube-controller-manager, and others.
 
- kubectl get pods --namespace kube-system     
+ kubectl get pods --namespace kube-system     # list kube-system pods
