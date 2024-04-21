@@ -77,3 +77,4 @@ kubectl api-resources   # listout all objects in k8s
 NAMESPACED =true : pod created in namespace
 NAMESPACE =false : pod created anywhre in claster
 
+KIND: its like liberary
