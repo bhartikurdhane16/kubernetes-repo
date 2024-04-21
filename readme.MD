@@ -79,7 +79,7 @@ NAMESPACE =false : pod created anywhre in claster
 
 KIND: its like liberary where all data stored
 
-## as we know we have single node cluster /minikube cluster so we can not access pod from outside the cluster(from host) for that need to take ssh to enter in minikube 
+## as we know we have single node cluster /minikube cluster so we can not access pod from outside the cluster(from host)  but access from inso to access app need to enter in cluster that need to take ssh to enter in minikube 
 
 kubectl get pods
 kubectl get pods -o wide
