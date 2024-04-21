@@ -71,4 +71,5 @@ kubectl run ns-pod1 --image httpd --namespace my-ns
 kubectl get pods    # list default ns pods
 kubectl get pods -n my-ns    #list pods in pertiular namespace
 
-## 
+## command to list all objects /resources
+kubectl get pods -n my-ns
