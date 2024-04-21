@@ -86,3 +86,4 @@ kubectl get pods -o wide
 curl <pod_ip>      # trying to access pod, but it stuck as we are  access from host ie from outside the cluster, need to enter in cluster 
 
 minikube ssh         # enter to cluster
+curl <pod_ip>         # successfully access application
