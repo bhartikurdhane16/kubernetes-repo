@@ -12,4 +12,4 @@ exit   # to logout minikube
 # we can not run commands inside minikube
 
  kubectl version        # check version
- kubectl cluster-info       #to get cluster info & check kubectl
+ kubectl cluster-info       #to get cluster info & check kubectl cummunicat with cluster or not 
