@@ -41,7 +41,7 @@ kubectl get namespace                    # listout all namespace, there are 4 na
 kube-public: This created automatically and is accessible to all users.
  It's primarily used for storing resources that should be accessible to all users, such as cluster-wide configuration or informational data.
 
-kubectl get pods --namespace kube-system     # list kube-system pod
+kubectl get pods --namespace kube-public     # list kube-system pod
 
 kube-system: This namespace contains Kubernetes system resources and components that are essential for the functioning of the cluster.
  It includes components like kube-proxy, kube-dns, kube-scheduler, kube-controller-manager, and others.
