@@ -92,4 +92,4 @@ Node: kubctl can not work inside the cluster
 
 # if wanted to access same pod from outside cluster then we use expose service (similar like port mapping in docker)
 
-syntax: kubctl 
+syntax: kubctl expose pod <pod_name>
