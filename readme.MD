@@ -30,3 +30,5 @@ kubectl get podes -o wide
 
 here we can not access application from external network, for that we need to use service like mapping in docker for this expose use in K8S
 
+## kubernetes objects
+#kubectl get <object_name>   -------listout object
