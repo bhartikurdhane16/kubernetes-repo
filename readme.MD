@@ -61,5 +61,6 @@ kube-system: This namespace contains Kubernetes system resources and components 
 syntax:kubectl create namespace <namespace name>    # create namespace
 Ex. kubectl create namespace my-ns
 
+kubectl get pods --namespace my-ns    # list pod in namespace
 
 
