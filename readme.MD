@@ -38,7 +38,7 @@ kubectl get <object_name>   -------listout object
 kubectl get namespace                            # listout all namespace, 
 Once run this command , get 4 name spaces alreay presents,
 
-syntax: kubectl get pods --namespace <namespace_name>  #to check pods of perticular namespace.
+syntax: kubectl get pods --namespace <namespace_name>    #to check pods of perticular namespace.
 
 1. defalut: if we can not mention any name same then pod create in default name space by default.
 kubectl get pods --namespace default    # least default pods
