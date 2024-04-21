@@ -55,3 +55,5 @@ kube-system: This namespace contains Kubernetes system resources and components 
  It includes components like kube-proxy, kube-dns, kube-scheduler, kube-controller-manager, and others.
 
  kubectl get pods --namespace kube-system     # list kube-system pods
+
+
