@@ -4,4 +4,5 @@
 ## Frstly install minikube , refere installation file.
 
 ## minikube k8s commands.
- 
+
+minikube ssh              # to enter inside minikube
