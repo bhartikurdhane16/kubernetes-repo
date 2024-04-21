@@ -30,9 +30,10 @@ kubectl get nodes -o wide
 kubectl get podes -o wide
 
 ## kubernetes objects: refer notes for details information
+
 kubectl get <object_name>   -------listout object
 
-## working with objects
+## Working with objects
 
 kubectl get namespace                    # listout all namespace, 
 there are 4 name spaces alreay presents,
