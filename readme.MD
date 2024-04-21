@@ -21,3 +21,5 @@ exit   # to logout minikube
  kubectl run first-pod --image nginx                        # here i created first pod using nginx image
 
  kubectl get pods              #list out all pods
+
+kubectl get nodes     #listout all nodes
