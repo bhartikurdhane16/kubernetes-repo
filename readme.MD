@@ -36,6 +36,7 @@ here we can not access application from external network, for that we need to us
 ## working with objects
 
 kubectl get namespace                    # listout all namespace, there are 4 name spaces alreay presents,
-1. defalut: if we can not mention any name same then pod create in default name 
+1. defalut: if we can not mention any name same then pod create in default name space by default.
+2.
 
 
