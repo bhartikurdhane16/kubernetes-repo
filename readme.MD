@@ -64,4 +64,5 @@ Ex. kubectl create namespace my-ns
 kubectl get pods --namespace my-ns    # list pod in namespace
 
 
+kubectl run ns-pod1 --image httpd --namespace my-ns
 
