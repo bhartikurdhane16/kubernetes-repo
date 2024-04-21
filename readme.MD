@@ -5,7 +5,7 @@
 
 ## minikube k8s commands.
 
-minikube ssh              # to enter inside minikube & get access of container
+minikube ssh                   # to enter inside minikube cluser & get access of container
 
 exit   # to logout minikube
 ## commands to communicate with cluster(GUI/CLI)
