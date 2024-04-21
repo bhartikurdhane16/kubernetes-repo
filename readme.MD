@@ -16,5 +16,6 @@ exit   # to logout minikube
 
  ## create pod
  syntax : kubectl run <pod_name> --image <image_name>
- 
- kubectl run first-pod --image nginx
+
+ Ex. 
+ kubectl run first-pod --image nginx                        
