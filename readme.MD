@@ -35,7 +35,7 @@ kubectl get <object_name>   -------listout object
 
 ## Working with objects
 
-kubectl get namespace                    # listout all namespace, 
+kubectl get namespace                            # listout all namespace, 
 there are 4 name spaces alreay presents,
 
 syntax: kubectl get pods --namespace <namespace_name>  #to check pods of perticular namespace.
