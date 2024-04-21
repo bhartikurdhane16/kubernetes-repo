@@ -88,4 +88,4 @@ curl <pod_ip>      # trying to access pod, but it stuck as we are  access from h
 minikube ssh         # enter to cluster
 curl <pod_ip>         # successfully access application
 
-Node: kubctl can not work inside the pod
+Node: kubctl can not work inside the cluster
