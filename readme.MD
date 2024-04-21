@@ -33,4 +33,6 @@ here we can not access application from external network, for that we need to us
 ## kubernetes objects
 #kubectl get <object_name>   -------listout object
 
-## wo
+## working with objects
+
+kubectl get namespace                
