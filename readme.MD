@@ -36,8 +36,9 @@ here we can not access application from external network, for that we need to us
 ## working with objects
 
 kubectl get namespace                    # listout all namespace, there are 4 name spaces alreay presents,
+
 1. defalut: if we can not mention any name same then pod create in default name space by default.
-kubectl get pods --namespace default    
+kubectl get pods --namespace default    # least default pods
 2.kube-node-lease: This namespace is used by the Kubernetes Node Lease feature, which helps nodes inform the control plane about their presence and health status. It contains Lease objects created by each node in the cluster.
 
 kubectl get pods --namespace kube-node-lease  # list pods in kube-node-lease
