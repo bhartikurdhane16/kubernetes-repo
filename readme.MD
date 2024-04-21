@@ -39,7 +39,7 @@ kubectl get namespace                    # listout all namespace, there are 4 na
 1. defalut: if we can not mention any name same then pod create in default name space by default.
 2.kube-node-lease: This namespace is used by the Kubernetes Node Lease feature, which helps nodes inform the control plane about their presence and health status. It contains Lease objects created by each node in the cluster.
 
-kubectl get pods --namespace kube-node-lease  # list pods in 
+kubectl get pods --namespace kube-node-lease  # list pods in kube-node-lease
 
 kube-public: This created automatically and is accessible to all users.
  It's primarily used for storing resources that should be accessible to all users, such as cluster-wide configuration or informational data.
