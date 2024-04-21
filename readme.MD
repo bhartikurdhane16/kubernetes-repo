@@ -5,4 +5,4 @@
 
 ## minikube k8s commands.
 
-minikube ssh              # to enter inside minikube 
+minikube ssh              # to enter inside minikube & get access 
