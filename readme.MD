@@ -30,7 +30,7 @@ kubectl get nodes -o wide
 kubectl get podes -o wide
 
 ## Play kubernetes objects
-#kubectl get <object_name>   -------listout object
+kubectl get <object_name>   -------listout object
 
 ## working with objects
 
