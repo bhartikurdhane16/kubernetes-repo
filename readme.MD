@@ -83,4 +83,4 @@ KIND: its like liberary where all data stored
 
 kubectl get pods
 kubectl get pods -o wide
-c
+curl <pod_ip>
