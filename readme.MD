@@ -58,6 +58,8 @@ kube-system: This namespace contains Kubernetes system resources and components 
 
 ## create own namespace
 
-syntax:kubectl create namespace <namespace name>
-Ex. kubectl create namespace 
+syntax:kubectl create namespace <namespace name>    # create namespace
+Ex. kubectl create namespace my-ns
+
+
 
