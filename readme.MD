@@ -68,3 +68,4 @@ syntax: kubectl run <pod name> --image <image name> --namespace <ns name>
 ex.
 kubectl run ns-pod1 --image httpd --namespace my-ns
 
+kubectl get pods -n my-ns    #list pods in namespace
