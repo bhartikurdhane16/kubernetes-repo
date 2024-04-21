@@ -12,8 +12,8 @@ exit                           # to logout minikube
 ## we can communicate with cluster using GUI/CLI 
 ## we can not run commands inside cluster
 
- kubectl version        # check version
- kubectl cluster-info       #to get cluster info & check kubectl cummunicat with cluster or not 
+ kubectl version              # check version
+ kubectl cluster-info         #to get cluster info & check kubectl cummunicat with cluster or not 
 
  ## create pod
  syntax : kubectl run <pod_name> --image <image_name>
