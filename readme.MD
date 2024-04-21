@@ -28,4 +28,4 @@ kubectl get nodes     #listout all nodes , here as working with minikube so only
 kubectl get nodes -o wide         
 kubectl get podes -o wide
 
-here we can not access application from external network, for that we need to use service like mapping in docker , so here we are using expose service 
+here we can not access application from external network, for that we need to use service like mapping in docker , 
