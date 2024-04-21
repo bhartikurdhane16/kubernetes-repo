@@ -78,3 +78,4 @@ NAMESPACED =true : pod created in namespace
 NAMESPACE =false : pod created anywhre in claster
 
 KIND: its like liberary where all data stored
+
