@@ -79,4 +79,4 @@ NAMESPACE =false : pod created anywhre in claster
 
 KIND: its like liberary where all data stored
 
-## as we know our 
+## as we know we have single node cluster /minikube 
