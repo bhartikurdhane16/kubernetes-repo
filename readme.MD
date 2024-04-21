@@ -38,7 +38,8 @@ here we can not access application from external network, for that we need to us
 kubectl get namespace                    # listout all namespace, there are 4 name spaces alreay presents,
 1. defalut: if we can not mention any name same then pod create in default name space by default.
 2.kube-node-lease: This namespace is used by the Kubernetes Node Lease feature, which helps nodes inform the control plane about their presence and health status. It contains Lease objects created by each node in the cluster.
-kube-public: This created automatically and is accessible to all users . It's primarily used for storing resources that should be accessible to all users, such as cluster-wide configuration or informational data.
+kube-public: This created automatically and is accessible to all users.
+ It's primarily used for storing resources that should be accessible to all users, such as cluster-wide configuration or informational data.
 kube-system: This namespace contains Kubernetes system resources and components that are essential for the functioning of the cluster. It includes components like kube-proxy, kube-dns, kube-scheduler, kube-controller-manager, and others.
 
 
