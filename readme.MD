@@ -3,11 +3,12 @@
 
 ## Frstly install minikube , refere installation file.
 
-## minikube k8s commands.
+## minikube k8s commands:
 
 minikube ssh                   # to enter inside minikube cluser & get access of pod
 
-exit   # to logout minikube
+exit                           # to logout minikube
+
 ## commands to communicate with cluster(GUI/CLI)
 # we can not run commands inside minikube
 
