@@ -90,4 +90,4 @@ curl <pod_ip>         # successfully access application
 
 Node: kubctl can not work inside the cluster
 
-# if wanted to access same 
+# if wanted to access same pod from 
