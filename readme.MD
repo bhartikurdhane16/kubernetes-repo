@@ -15,7 +15,7 @@ exit                           # to logout minikube
  kubectl version              # check version
  kubectl cluster-info         #to get cluster info & check kubectl cummunicat with cluster or not 
 
- ## create pod
+ ## command to create pod
  syntax : kubectl run <pod_name> --image <image_name>
 
  Ex. 
