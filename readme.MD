@@ -75,4 +75,4 @@ kubectl get pods -n my-ns    #list pods in pertiular namespace
 kubectl api-resources   # listout all objects in k8s
 
 NAMESPACED =true : pod created in namespace
-NAMESPACE =false : p             
+NAMESPACE =false : pod created anywhre in clusert              
