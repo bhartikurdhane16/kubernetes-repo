@@ -7,5 +7,5 @@
 
 minikube ssh              # to enter inside minikube & get access of container
 
-exit   # 
+exit   # to logout minikube
 ## commands to communicate with cluster(GUI/CLI)
