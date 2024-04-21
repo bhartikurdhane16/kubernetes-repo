@@ -72,4 +72,4 @@ kubectl get pods    # list default ns pods
 kubectl get pods -n my-ns    #list pods in pertiular namespace
 
 ## command to list all objects /resources
-kubectl get
+kubectl api-resources   # 
