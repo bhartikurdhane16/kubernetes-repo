@@ -83,7 +83,7 @@ KIND: its like liberary where all data stored
 
 kubectl get pods
 kubectl get pods -o wide
-curl <pod_ip>      # trying to access pod, but it stuck as we are  access from host ie from outside the cluster, need to enter in cluster 
+curl <pod_ip>      # trying to access pod, but it stuck as we are accessing from host ie from outside the cluster, need to enter in cluster 
 
 minikube ssh         # enter to cluster
 curl <pod_ip>         # successfully access application
