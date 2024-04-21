@@ -20,4 +20,5 @@ exit   # to logout minikube
  Ex. 
  kubectl run first-pod --image nginx                        # here i created first pod using nginx image
 
- kubectl get pods              #shw
+ kubectl get pods              #shows all pods
+ 
