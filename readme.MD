@@ -83,4 +83,4 @@ KIND: its like liberary where all data stored
 
 kubectl get pods
 kubectl get pods -o wide
-curl <pod_ip>      # trying to access pod, but it stuck as we are outside the 
+curl <pod_ip>      # trying to access pod, but it stuck as we are outside 
