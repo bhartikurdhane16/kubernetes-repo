@@ -1,3 +1,5 @@
 ## minikube k8s commands
 
-## Frstly install minikube 
+## Frstly install minikube , refere installation file.
+
+
