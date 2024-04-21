@@ -35,5 +35,5 @@ here we can not access application from external network, for that we need to us
 
 ## working with objects
 
-kubectl get namespace                 # listout all namespace
+kubectl get namespace                    # listout all namespace
 
