@@ -24,5 +24,6 @@ exit   # to logout minikube
 
 kubectl get nodes     #listout all nodes , here as working with minikube so only one node is present
 
+## for detail
 kubectl get nodes -o wide         
 kubectl get podes -o wide
