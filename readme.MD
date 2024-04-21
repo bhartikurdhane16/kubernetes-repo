@@ -29,7 +29,7 @@ kubectl get nodes             #listout all nodes , here as working with minikube
 kubectl get nodes -o wide         
 kubectl get podes -o wide
 
-## Play kubernetes objects, refer notes for detaile information
+## Play kubernetes objects, refer notes for details information
 kubectl get <object_name>   -------listout object
 
 ## working with objects
