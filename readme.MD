@@ -38,7 +38,7 @@ syntax: kubectl get pods --namespace <namespace_name>    #command to  check pods
 
 kubectl get namespace                            # listout all namespace 
 
-here 4 namespace 
+here 4 namespace already preset.
 
 1. defalut: if we can not mention any name same then pod create in default name space by default.
 kubectl get pods --namespace default    # least default pods
