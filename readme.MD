@@ -22,4 +22,5 @@ exit   # to logout minikube
 
  kubectl get pods              #list out all pods
 
-kubectl get nodes     #listout all nodes , here as working with mink
+kubectl get nodes     #listout all nodes , here as working with minikube so only one node is present
+
