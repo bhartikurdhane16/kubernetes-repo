@@ -63,7 +63,8 @@ syntax: kubectl get pods --namespace <namespace name>             # list pod in 
 
 Ex. 
 kubectl create namespace my-ns
-kubectl get pods --namespace my-ns                             
+kubectl get pods --namespace my-ns    
+                         
 create pod in perticular namespace
 syntax: kubectl run <pod name> --image <image name> --namespace <ns name>
 ex.
