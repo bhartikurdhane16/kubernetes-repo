@@ -32,8 +32,8 @@ kubectl get nodes -o wide
 kubectl get podes -o wide
 
 
-## pod workflow
-kubectl get podes -o wide
+## pod workflow 
+kubectl get podes -o wide   
 ready=1/1 : only one contaoiner present & running that pod
 restart: how many time container restarted
 IP: pod ip
