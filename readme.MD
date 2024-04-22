@@ -98,7 +98,7 @@ Node: kubctl can not work inside the cluster
 
 ## if wanted to access same pod from outside cluster then we use expose service (similar like port mapping in docker)
 
-syntax: kubctl expose pod <pod_name> --type <service_type> --port 80 -n <namespace_name>    
+syntax: kubctl expose pod <pod_name> --type <service_type> --port <port> -n <namespace_name>   # assign  
 
 kubectl expose pod <pod_name> --type=Service --port=<port_number> --target-port=<target_port>
 
