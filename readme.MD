@@ -135,6 +135,6 @@ http://http//10.244.0.4:32454/       # try to access app using pod ip & node por
 
 
 
-
+## create pod with labels
 kubectl run pod4 --image nginx --labels app=erp-app,env=prod,project=xyz --port=80
 kubectl get pods --show-labels
