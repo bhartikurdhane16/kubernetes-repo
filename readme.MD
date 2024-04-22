@@ -109,4 +109,4 @@ Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with=nodeport & it will create the service
 
 kubectl get service   # listout the service
-OR kubectl get svc    # 
+OR kubectl get svc    # we can also use short form of service it get w 
