@@ -104,5 +104,6 @@ Service types:
 1. ClusterIP
 2. ExternalName
 3. LoadBalancer
+4. NodePort
 
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns
