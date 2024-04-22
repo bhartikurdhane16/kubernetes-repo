@@ -32,7 +32,7 @@ kubectl get podes -o wide
 
 ## kubernetes objects: refer notes for details information
 
-## 
+## there are multiple objects in k8s like, namespace, 
 
 kubectl get <object_name>   -------listout object
 
