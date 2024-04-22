@@ -107,3 +107,5 @@ Service types:
 4. NodePort
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with=nodeport & it will create the service
+
+kubectl get service
