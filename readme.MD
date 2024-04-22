@@ -104,7 +104,7 @@ Service types:
 1. ClusterIP : is used when you wanted to create an internal service accessible within the cluster.
 2. ExternalName
 3. LoadBalancer
-4. NodePort
+4. NodePort: use when you wanted the 
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with=nodeport & it will create the service
 
