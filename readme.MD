@@ -135,7 +135,7 @@ kubectl create service externalname <service_name> --external-name=<external_dns
 kubectl expose pod my-pod --type=LoadBalancer --port=8080 
 kubectl get svc      # shows pending state but LB is in working condition
 minikube ip
-curl 
+curl <minikube_ip>:
 
 
 
