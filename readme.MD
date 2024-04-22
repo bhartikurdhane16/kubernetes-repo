@@ -112,8 +112,11 @@ kubectl expose pod my-pod --type=ClusterIP --port=8080 --target-port=8080
 
 2. ExternalName: is used to provide a DNS alias to an external resource outside of the Kubernetes cluster. This is useful when you want to reference services that exist outside of your Kubernetes cluster, such as databases, APIs, or other services hosted in different environments.
 
+kubectl create service externalname <service_name> --external-name=<external_dns_name>
 
 3. LoadBalancer:use when you wanted to expose service outside the network (access from outside the cluster)
+
+
 4. NodePort: use when you wanted to expose service outside the network (access from outside the cluster)
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with=nodeport & it will create the service
