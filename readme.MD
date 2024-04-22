@@ -32,6 +32,9 @@ kubectl get nodes -o wide
 kubectl get podes -o wide
 
 
+## pod workflow
+
+
 ## create pod with labels
 kubectl run pod4 --image nginx --labels app=erp-app,env=prod,project=xyz --port=80   
 kubectl get pods --show-labels
