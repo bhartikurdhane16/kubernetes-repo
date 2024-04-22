@@ -33,6 +33,7 @@ kubectl get podes -o wide
 
 
 ## pod workflow
+kubectl get podes -o wide
 
 
 ## create pod with labels
