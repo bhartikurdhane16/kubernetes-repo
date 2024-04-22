@@ -34,6 +34,7 @@ kubectl get podes -o wide
 ## create pod with labels
 kubectl run pod4 --image nginx --labels app=erp-app,env=prod,project=xyz --port=80   
 kubectl get pods --show-labels
+
 ## kubernetes objects: refer notes for details information
 
 ## there are multiple objects in k8s like, namespace, services, configmap, stateful-set, stateless-set, daemon-set, pod, replication controller,deployment,replica  set etc.
