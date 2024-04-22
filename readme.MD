@@ -125,7 +125,7 @@ kubectl expose pod <pod-name> --type=NodePort --port=<pod port> --target-port=<t
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with= random nodeport & it will create the service
 
-kubectl get svc -n <namespace_name>   # listout services at pod, namespace not given ithn it will listout for default pod
+kubectl get svc -n <namespace_name>    # listout services at pod, namespace not given ithn it will listout for default pod
 kubectl get service -n my-ns           # listout the service
 OR kubectl get svc -n my-ns            # we can also use short form of service it get when run #cubectl api-resources
 
