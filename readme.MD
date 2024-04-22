@@ -124,7 +124,7 @@ kubectl expose pod <pod-name> --type=NodePort --port=<pod port> --target-port=<t
 kubectl get svc -n <namespace_name>    # listout services at pod, namespace not given ithn it will listout for default pod
 kubectl get pod <pod_name> -n <namespace_name> -o wide    # detail information of pod , not use namespce give info of default pod
 http://<pod_ip>:<mapped_port>    # used combination of nodeport & pod ip to get access of application over external network
-OR 
+OR curl 
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with= random nodeport & it will create the service
 kubectl get service -n my-ns           # here we got service type & mapped port
