@@ -130,7 +130,7 @@ kubectl expose pod my-pod --type=LoadBalancer --port=8080 --target-port=8080
 kubectl expose pod <pod-name> --type=NodePort --port=<pod port> --target-port=<target_mapping_port>   # target not given then it map with random port
 kubectl get svc -n <namespace_name>    # listout services at pod, namespace not given ithn it will listout for default pod
 kubectl get pod <pod_name> -n <namespace_name> -o wide    # detail information of pod , not use namespce give info of default pod
-minikube ip                     # 
+minikube ip                     #command goves minikube ip 
 http://<minikube_ip>:<mapped_nodeport>    # used combination of minikube ip & port no to get access of application over external network
 OR curl <minikube_ip>:<mapped_nodeport>    #access with combinate of minikube ip & node port
 kubectl delete svc <service_name>     #delete service
