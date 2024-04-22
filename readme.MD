@@ -100,7 +100,7 @@ Node: kubctl can not work inside the cluster
 
 syntax: kubctl expose pod <pod_name> --type <service_type> --port <port_no> -n <namespace_name>   # assign  ramdom port
 
-kubectl expose pod <pod_name> --type=Service --port=<port_number> --target-port=<target_port> 
+kubectl expose pod <pod_name> --type=Service --port=<port_number> --target-port=<target_port> -n <namespce>   # assigin specifi
 
 
 Service types: 
