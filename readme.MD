@@ -102,7 +102,7 @@ syntax: kubctl expose pod <pod_name> --type <service_type> --port 80 -n <namespa
 
 Service types: 
 1. ClusterIP : is used when you wanted to create an internal service accessible within the cluster.
-2. ExternalName:
+2. ExternalName: is used to provide a DNS alias to an external resource outside of the Kubernetes cluster. This is useful when you want to reference services that exist outside of your Kubernetes cluster, such as databases, APIs, or other services hosted in different environments.
 3. LoadBalancer:use when you wanted to expose service outside the network (access from outside the cluster)
 4. NodePort: use when you wanted to expose service outside the network (access from outside the cluster)
 Ex.
