@@ -66,11 +66,12 @@ kube-system: This namespace contains Kubernetes system resources and components 
 syntax:kubectl create namespace <namespace name>                            # create namespace
 syntax: kubectl get pods --namespace <namespace name>                       # list pod in specific namespace
 syntax: kubectl run <pod name> --image <image name> --namespace <ns name>   # command create pod in perticular namespace
-syntax: delete pod <pod_name> -n <namespace-name>                  # delete pod
+syntax: delete pod <pod_name> -n <namespace-name>                           # delete pod
 Ex. 
 kubectl create namespace my-ns
 kubectl get pods --namespace my-ns    
 kubectl run ns-pod1 --image httpd --namespace my-ns
+kubectl delete pod pod1 -n my-ns
 
 kubectl get pods                                                            # list default ns pods
 kubectl get pods -n my-ns                                                   #list pods in pertiular namespace
