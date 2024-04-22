@@ -143,7 +143,7 @@ kubectl get service -n my-ns           # here we got service type & mapped port
 OR    kubectl get svc -n my-ns         # we can also use short form of service it get when run #cubectl api-resources
 minikube ip 
 kubectl get pod ns-pod1 -n my-ns -o wide  # here we got pod ip 
-http://[http//10.244.0.4:32454](http://192.168.49.2:32766/)/       # try to access app using pod ip & node port 
+http://192.168.49.2:32766       # try to access app using minikube ip & node port 
 
 
 
