@@ -34,6 +34,7 @@ kubectl get podes -o wide
 
 kubectl get <object_name>   -------listout object
 
+
 ## Working with objects
 syntax: kubectl get pods --namespace <namespace_name>    #command to  check pods of perticular namespace.
 
