@@ -1,0 +1,51 @@
+
+Miniqube cluster deployment steps
+------------------------------------------------
+1. launch server  ---ubuntu used
+2. install docker engine
+
+apt update-y
+sudo apt install apt-transport-https ca-certificates curl software-properties-common -y   ------------dependency
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg   ------add gpg key for official docker repository to system
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null  ------------------add docker repo  to APT source
+ apt update -y
+ apt-cache policy docker-ce  -----------make sure you are about to install docker repo insted of ubuntu repo
+ sudo apt install docker-ce -y                 ------ install docker
+ sudo systemctl status docker
+------------------------------------------------------
+3. install miniqube to create cluster
+
+refer doc link : https://minikube.sigs.k8s.io/docs/start/
+
+a) installation
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+sudo dpkg -i minikube_latest_amd64.deb
+
+ b) start cluster
+minikube start                                                                              # shows permission denied to connect with docker daemon
+sudo usermod -aG docker $USER && newgrp docker      # suggest modify current ubuntu user & add in docker group
+cat/etc/group
+
+minikube start                                                                              #here minikube started
+minikube status
+minikube version
+ 
+c) install cubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod +x kubectl       # make cubectl exicutable
+sudo mv kubectl /usr/local/bin                        
+sudo apt update -y
+kubectl version --output=yaml                             #This will display information about the installed Kubectl in YAML format.
+
+==========================================================================================================================
+
+
+
+ 
+ 
+ 
+
+
+
+
