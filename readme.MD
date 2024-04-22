@@ -133,6 +133,7 @@ kubectl get pod <pod_name> -n <namespace_name> -o wide    # detail information o
 http://<pod_ip>:<mapped_nodeport>    # used combination of nodeport & pod ip to get access of application over external network
 OR curl <pod_ip>:<mapped_nodeport>    #access with combinate of pid ip & node port
 
+kubectl delete
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with= random nodeport & it will create the service
 kubectl get service -n my-ns           # here we got service type & mapped port
