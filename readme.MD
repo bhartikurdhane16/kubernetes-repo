@@ -130,3 +130,4 @@ kubectl get service -n my-ns           # listout the service
 OR kubectl get svc -n my-ns            # we can also use short form of service it get when run #cubectl api-resources
 
 
+kubectl get pod ns-pod1 -n my-ns -o wide
