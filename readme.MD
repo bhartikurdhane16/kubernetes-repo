@@ -32,7 +32,7 @@ kubectl get podes -o wide
 
 ## kubernetes objects: refer notes for details information
 
-## there are multiple objects in k8s like, namespace, services, configmap, stateful-set, stateless-set, daemon-set, p
+## there are multiple objects in k8s like, namespace, services, configmap, stateful-set, stateless-set, daemon-set, pod, replication controller,
 
 kubectl get <object_name>   -------listout object
 
