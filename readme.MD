@@ -135,8 +135,7 @@ kubectl create service externalname <service_name> --external-name=<external_dns
 kubectl expose pod my-pod --type=LoadBalancer --port=8080 
 kubectl get svc      # shows pending state but LB is in working condition
 minikube ip
-curl <minikube_ip>:<port>   # host app from external network 
-
+curl <minikube_ip>:<port>   # host app from external network /outside the cluster
 
 
 4. NodePort: use when you wanted to expose service outside the network (access from outside the cluster)
