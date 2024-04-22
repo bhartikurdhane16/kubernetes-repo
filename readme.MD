@@ -160,8 +160,8 @@ http://192.168.49.2:32766     OR curl 192.168.49.2:32766        # try to access 
 
 
 
-## command to create multiple container in pod
-
+## how to create multiple pods using commands?
+##
 
 
 ## pod workflow
