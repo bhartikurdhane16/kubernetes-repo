@@ -36,7 +36,8 @@ kubectl get podes -o wide
 kubectl get podes -o wide
 ready=1/1 : only one contaoiner present & running that pod
 restart: how many time container restarted
-ip
+IP: pod ip
+
 
 ## create pod with labels
 kubectl run pod4 --image nginx --labels app=erp-app,env=prod,project=xyz --port=80   
