@@ -100,4 +100,6 @@ Node: kubctl can not work inside the cluster
 
 syntax: kubctl expose pod <pod_name> --type <service_type> --port 80 -n <namespace_name>
 
+Service types: 1. Cluster
+
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns
