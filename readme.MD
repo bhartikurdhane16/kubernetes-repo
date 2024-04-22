@@ -160,9 +160,6 @@ http://192.168.49.2:32766     OR curl 192.168.49.2:32766        # try to access 
 
 
 
-## how to create multiple container in pod using commands?
-## multiple container in pod disadvantages in auto scalling?
-## side car container with production applicationn& proxy container?
 
 
 
