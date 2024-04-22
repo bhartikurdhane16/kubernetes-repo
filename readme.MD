@@ -101,7 +101,7 @@ Node: kubctl can not work inside the cluster
 syntax: kubctl expose pod <pod_name> --type <service_type> --port 80 -n <namespace_name>
 
 Service types: 
-1. ClusterIP
+1. ClusterIP : is used to create an internal service accessible within the cluster.
 2. ExternalName
 3. LoadBalancer
 4. NodePort
