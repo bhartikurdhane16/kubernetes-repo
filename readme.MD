@@ -34,7 +34,8 @@ kubectl get podes -o wide
 
 ## pod workflow
 kubectl get podes -o wide
-ready=1/1 
+ready=1/1 : only one contaoiner present & running that pod
+restart
 
 ## create pod with labels
 kubectl run pod4 --image nginx --labels app=erp-app,env=prod,project=xyz --port=80   
