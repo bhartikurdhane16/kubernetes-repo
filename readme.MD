@@ -78,7 +78,7 @@ kubectl get pods -n my-ns                                                   #lis
 
 ## command to list all objects /resources
 kubectl api-resources   # listout all objects in k8s
-kubectl api-version
+kubectl api-version     #show version
 
 NAMESPACED =true : pod created in namespace
 NAMESPACE =false : pod created anywhre in claster
