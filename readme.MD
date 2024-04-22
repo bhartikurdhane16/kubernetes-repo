@@ -39,7 +39,7 @@ restart: how many time container restarted
 IP: pod ip
 Node: shows our pod running on which node
 readyness: pods are ready to create or not
-NominIndicates if a node has been nominated for the Pod
+Nominate:Indicates if a node has been nominated for the Pod
 
 ## create pod with labels
 kubectl run pod4 --image nginx --labels app=erp-app,env=prod,project=xyz --port=80   
