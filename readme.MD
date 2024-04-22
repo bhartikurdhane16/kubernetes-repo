@@ -133,7 +133,8 @@ kubectl create service externalname <service_name> --external-name=<external_dns
 3. LoadBalancer:use when you wanted to expose service outside the network (access from outside the cluster)
 
 kubectl expose pod my-pod --type=LoadBalancer --port=8080 
-kubectl get svc      # shows pending state but LB is in working stae 
+kubectl get svc      # shows pending state but LB is in working condition
+
 
 
 
