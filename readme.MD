@@ -165,6 +165,6 @@ http://192.168.49.2:32766     OR curl 192.168.49.2:32766        # try to access 
 ## side car container with production applicationn& proxy container?
 
 
-## pod workflow
+
 
 
