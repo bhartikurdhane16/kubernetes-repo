@@ -20,7 +20,7 @@ exit                           # to logout minikube
 
  Ex. 
  kubectl run first-pod --image nginx                        # here i created first pod using nginx image
- delete pod <pod_name> -n 
+ delete pod <pod_name> -n <namespace-name>
 
 kubectl get pods              #list out all pods
 
