@@ -133,3 +133,7 @@ OR    kubectl get svc -n my-ns         # we can also use short form of service i
 kubectl get pod ns-pod1 -n my-ns -o wide  # here we got pod ip 
 http://http//10.244.0.4:32454/       # try to access app using pod ip & node port
 
+
+
+
+kubectl run pod4 --image nginx --labels app=erp-app,env=prod,project=xyz --port=80
