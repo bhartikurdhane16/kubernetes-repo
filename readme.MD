@@ -106,4 +106,4 @@ Service types:
 3. LoadBalancer
 4. NodePort
 Ex.
-kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #here i exposed 
+kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my POD
