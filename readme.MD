@@ -121,7 +121,7 @@ kubectl expose pod my-pod --type=LoadBalancer --port=8080 --target-port=8080
 4. NodePort: use when you wanted to expose service outside the network (access from outside the cluster)
 
 kubectl expose pod <pod-name> --type=NodePort --port=<pod port> --target-port=<target_mapping_port>   # target not given then it map with random port
-
+kubectl get svc -n <namespace_name>    # listout services at pod, namespace not given ithn it will listout for default pod
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with= random nodeport & it will create the service
 
