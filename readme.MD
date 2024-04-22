@@ -37,6 +37,7 @@ kubectl get podes -o wide
 ready=1/1 : only one contaoiner present & running that pod
 restart: how many time container restarted
 IP: pod ip
+Node: shows our pod running on which node
 
 
 ## create pod with labels
