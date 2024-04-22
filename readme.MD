@@ -116,6 +116,7 @@ kubectl create service externalname <service_name> --external-name=<external_dns
 
 3. LoadBalancer:use when you wanted to expose service outside the network (access from outside the cluster)
 
+kubectl expose pod my-pod --type=LoadBalancer --port=8080 --target-port=8080
 
 4. NodePort: use when you wanted to expose service outside the network (access from outside the cluster)
 Ex.
