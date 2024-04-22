@@ -32,6 +32,8 @@ kubectl get podes -o wide
 
 ## kubernetes objects: refer notes for details information
 
+## 
+
 kubectl get <object_name>   -------listout object
 
 ex kubectl get configmap      -------listout congigmap
