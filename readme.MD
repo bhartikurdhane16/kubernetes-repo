@@ -125,7 +125,9 @@ there are 4 Service types use to expose pod port:
 1. ClusterIP : is used when you wanted to create an internal service accessible within the cluster.
 
 kubectl expose pod my-pod --type=ClusterIP --port=8080 
-ex
+ex.
+kubectl run pod6 --image nginx && kubectl expose pod pod6 --type=ClusterIP --port=80 && kubectl get svc
+
 
 2. ExternalName: is used to provide a DNS alias to an external resource outside of the Kubernetes cluster. This is useful when you want to reference services that exist outside of your Kubernetes cluster, such as databases, APIs, or other services hosted in different environments.
 
