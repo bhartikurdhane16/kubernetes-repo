@@ -102,6 +102,7 @@ syntax: kubctl expose pod <pod_name> --type <service_type> --port 80 -n <namespa
 
 Service types: 
 1. ClusterIP
-2.ExternalName
-3. 
+2. ExternalName
+3. LoadBalancer
+
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns
