@@ -105,5 +105,5 @@ Service types:
 2. ExternalName
 3. LoadBalancer
 4. NodePort
-
+Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns
