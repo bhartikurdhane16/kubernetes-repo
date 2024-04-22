@@ -149,6 +149,7 @@ http://192.168.49.2:32766     OR curl 192.168.49.2:32766        # try to access 
 
 ## command to create multiple container in pod
 kubectl run multi-container-pod --image=nginx --port=80 --command -- sleep 3600
+kubectl run --attach --restart=Never -it --rm multi-container-pod --image=busybox --command -- sh -c "echo Hello from Container2 && sleep 3600"
 
 
 
