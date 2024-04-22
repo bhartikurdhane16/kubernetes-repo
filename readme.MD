@@ -129,4 +129,4 @@ kubectl get service -n my-ns           # here we got service type & mapped port
 OR    kubectl get svc -n my-ns         # we can also use short form of service it get when run #cubectl api-resources
 kube
 
-kubectl get pod ns-pod1 -n my-ns -o wide
+kubectl get pod ns-pod1 -n my-ns -o wide  # here we got pod ip 
