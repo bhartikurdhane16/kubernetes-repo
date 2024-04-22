@@ -125,7 +125,7 @@ kubectl get svc -n <namespace_name>    # listout services at pod, namespace not 
 
 Ex.
 kubectl expose pod ns-pod1 --type NodePort --port 80 -n my-ns     #it will map my PODPort with= random nodeport & it will create the service
-kubectl get service -n my-ns           # listout the service
+kubectl get service -n my-ns           # here we got service type & 
 OR    kubectl get svc -n my-ns            # we can also use short form of service it get when run #cubectl api-resources
 kube
 
