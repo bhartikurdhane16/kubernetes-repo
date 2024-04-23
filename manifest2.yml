@@ -32,7 +32,7 @@ spec:
       containerPort: 80           #default port of nginx
                   
 
-
+#expose service
 
 
 
