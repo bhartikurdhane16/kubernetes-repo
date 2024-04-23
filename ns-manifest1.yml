@@ -8,3 +8,6 @@ metadata:
          app: evc-app 
          env: dev
   
+
+
+kubectl apply -f ns-manifest1.yml 
