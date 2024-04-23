@@ -2,4 +2,5 @@
 
 steps:
 1. need to create .ymal file to create pod.
-2. try to acces pod within min
+2. try to acces pod within minikube cluster---accessable
+try to access application outside the cluster ----not accessable.
