@@ -16,7 +16,8 @@ metadata:
 
 #create pod in namespce
 apiVersion: v1
-kind: Kind
+kind: pod
+
 
 
 
