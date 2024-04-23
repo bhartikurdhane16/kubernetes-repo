@@ -1,7 +1,7 @@
 #here i am creating pod
 
 apiVersion: v1   #api version of pod,   command: cubectl api resources
-Kind: Pod       #object type , same command  
+kind: Pod       #object type , same command , it define type of k8s resource being use
 metadata:
     name: first-pod      #pod name
     labels: 
