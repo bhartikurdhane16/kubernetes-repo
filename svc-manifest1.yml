@@ -8,7 +8,7 @@ metadata:
          app: nginx 
          env: dev
     namespace: evc-prod-ns    
-spec:     #here we have to specify pod-->container specification.
+spec:     #here we specify 
   containers: 
   - name: first-pod-container1
     image: nginx
