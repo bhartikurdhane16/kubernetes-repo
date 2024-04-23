@@ -1,1 +1,1 @@
-apiVersion: v1   #api version of pod,   comand:  
+apiVersion: v1   #api version of pod,   command: cubectl a  
