@@ -28,3 +28,4 @@ spec:
 #commands
 #kubectl api-resources
 #cubectl expose pod first-pod -n evc-prod-ns --type NodePort -- port 80 --targetPort 8081
+#kubectl get nodes -n evc-prod-ns -o wide   OR minikube ip
