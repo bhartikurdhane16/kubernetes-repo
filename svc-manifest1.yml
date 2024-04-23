@@ -15,7 +15,7 @@ metadata:
 spec: 
   type: NodePort        #service type
   salector:             # Label selector to match Pods for this service
-    app: first-pod-app   #
+    app: first-pod-app  #
   port: 80
 
 
