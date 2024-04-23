@@ -13,7 +13,8 @@ metadata:
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
 spec: 
   type: NodePort        #service type
-  port:
+  port: 80
+  
 
   containers: 
   - name: first-pod-container1
