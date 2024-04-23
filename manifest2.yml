@@ -1,4 +1,5 @@
-# create pod 
+# create pod & expose service
+#steps: 
 # plug-in required: autogit & kubernetes
 
 steps:
