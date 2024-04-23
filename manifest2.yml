@@ -6,6 +6,8 @@
 
 #namespace create
 apiVersion: v1
+kind: kind
+
 
 
 
