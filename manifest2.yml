@@ -25,7 +25,7 @@ metadata:
        env: dev
 spec:
  containers: 
-  - name: evc-pod-container1
+  - name: evc-pod-c1
     image: nginx
     ports: 
     - name: http
