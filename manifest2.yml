@@ -4,4 +4,4 @@
 #create pod in namespce
 #expose service (type:NodePort) to access service from outside the cluster
 
-#
+#namespace create
