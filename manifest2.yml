@@ -20,6 +20,10 @@ kind: Pod
 
 metadata:
    name: evc-pod
+   labels:
+       app: evc-app
+       env: dev
+       
 
 
 
