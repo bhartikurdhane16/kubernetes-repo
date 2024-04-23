@@ -1,4 +1,4 @@
 # guidelines to create simple manifest file to create pods in minikube
 
 steps:
-1. 
+1. need to create .ymal file to create pod.
