@@ -20,7 +20,3 @@ containers:
 
 
 
-spec:
-  containers:
-  - name: my-container
-    image: nginx
