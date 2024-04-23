@@ -1,4 +1,4 @@
-#here i am exposing pod 
+#here i am exposing  service 
 apiVersion: v1   #api version of pod,   command: cubectl api resources
 kind: Pod       #object type , same command , it define type of k8s resource being use
 metadata:
