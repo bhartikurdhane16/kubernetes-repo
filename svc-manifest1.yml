@@ -14,7 +14,7 @@ metadata:
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
 spec: 
   type: NodePort        #service type
-  selector:             # Label selector to match Pods for this service, # Selects the set of Pods targeted by this Service.
+  selector:             # Selects the set of Pods targeted by this Service.
     app: evc-app        #label
   ports:
     - name: http
