@@ -11,7 +11,7 @@ metadata:
     namespace: evc-prod-ns  
 
  # configure spec: spec defines the desired state of the resource (mention what we want to create & manage)    
-spec:     #here we specify 
+spec:     
   containers: 
   - name: first-pod-container1
     image: nginx
