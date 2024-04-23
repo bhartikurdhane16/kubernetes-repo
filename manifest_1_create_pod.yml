@@ -6,4 +6,6 @@ metadata:
     name: first-pod      #pod name
     labels: 
          app: nginx 
-         env:    
+         env: dev
+    namespace: 
+
