@@ -3,7 +3,7 @@
 apiVersion: v1   
 kind: Service      
 metadata:
-    name: No
+    name: NodePort
     labels: 
          app: nginx 
          env: dev
