@@ -9,7 +9,7 @@ metadata:
          env: dev
     namespace: evc-prod-ns  
 
- #defines the desired state of the resource     
+ # configure spec: spec defines the desired state of the resource ()    
 spec:     #here we specify 
   containers: 
   - name: first-pod-container1
