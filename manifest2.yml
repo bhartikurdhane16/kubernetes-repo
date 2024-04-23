@@ -2,7 +2,7 @@
 #steps: 
 #namespce-create
 #create pod in namespce
-#expose service (NodePod)
+#expose service (type:NodePort)
 #
 # plug-in required: autogit & kubernetes
 
