@@ -25,17 +25,5 @@ spec:
  
            
 
-spec:
-  type: NodePort
-  selector:
-    app: eb-ms-app #[app: eb-ms-app]
-  ports:
-    - name: http
-      protocol: TCP
-      port: 80
-      targetPort: 80
-    - name: tomcat-port
-      protocol: TCP
-      port: 8080
-      targetPort: 8080  
+
            cubectl expose pod first-pod -n evc-prod-ns --type NodePort -- port 80 --targetPort 8081
