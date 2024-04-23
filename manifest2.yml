@@ -15,14 +15,14 @@ metadata:
 
 
 #create pod in namespce
-apiVersion: v1
-kind: Pod 
+# apiVersion: v1
+# kind: Pod 
 
-metadata:
+# metadata:
    name: evc-pod
-   labels:
-       app: evc-app
-       env: dev
+  #  labels:
+  #      app: evc-app
+  #      env: dev
 namespace: evc-ns
 spec:
  containers: 
