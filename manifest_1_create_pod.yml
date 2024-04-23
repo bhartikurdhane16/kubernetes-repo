@@ -11,7 +11,9 @@ metadata:
 spec:     #here we have to specify pod-->container specification.
     container: 
         - name: first-pod-container1
-        
+          image: nginx
+          ports: 
+             - 
            
 
 
