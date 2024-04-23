@@ -20,7 +20,7 @@ spec:
     - name: http
       protocol: TCP
       port: 80
-      targetPort: 80
+      targetPort: 80   #is used to specify the port on which the backend Pods are listening for traffic.
 
 
 #commands
