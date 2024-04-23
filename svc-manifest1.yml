@@ -12,7 +12,7 @@ metadata:
 
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
 spec: 
-  type:    
+  type: NodePort        #    
   containers: 
   - name: first-pod-container1
     image: nginx
