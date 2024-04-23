@@ -7,5 +7,5 @@ metadata:
     labels: 
          app: nginx 
          env: dev
-    namespace: 
+    namespace: evc-ns    
 
