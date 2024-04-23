@@ -5,6 +5,6 @@ kind: Namespace      #object type , same command , it define type of k8s resourc
 metadata:
     name: evc-prod-ns     #ns name
     labels: 
-         app: nginx 
+         app: evc-app 
          env: dev
   
