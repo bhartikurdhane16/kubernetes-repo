@@ -6,8 +6,8 @@ kind: Service
 metadata:
     name: evc-app-svc
     labels: 
-         app: evc-app 
-         env: dev
+        #  app: evc-app 
+        #  env: dev
          
     namespace: evc-prod-ns  
 
