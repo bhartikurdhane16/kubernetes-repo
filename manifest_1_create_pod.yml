@@ -13,7 +13,8 @@ spec:     #here we have to specify pod-->container specification.
         - name: first-pod-container1
           image: nginx
           ports: 
-             - 
+             - name: http
+             
            
 
 
