@@ -4,7 +4,7 @@
 steps:
 1. 
 
-1. create .ymal file to create pod(pod-->container--->application).
+1. .yml file to create pod(pod-->container--->application).
 2. try to acces application within minikube cluster---accessable
 3. try to access application outside the cluster ----not accessable.
 4. to access application from outside the cluster need to espose service, so to expose service create another .yml file
