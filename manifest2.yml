@@ -23,6 +23,7 @@ metadata:
    labels:
        app: evc-app
        env: dev
+spec:
        
 
 
