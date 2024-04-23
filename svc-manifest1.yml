@@ -13,7 +13,7 @@ metadata:
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
 spec: 
   type: NodePort        #service type
-  salector:
+  salector:             # Label selector to match Pods for this service
   
   port: 80
 
