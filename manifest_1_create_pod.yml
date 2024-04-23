@@ -8,7 +8,7 @@ metadata:
          app: nginx 
          env: dev
     namespace: evc-prod-ns    #namspace where pod should create
-spec:
+spec:     #here i am provideing pod-->container
 
 
 
