@@ -5,7 +5,8 @@
 #expose service (type:NodePort) to access service from outside the cluster
 
 #namespace create
-apiVersion:
+apiVersion: v1
+
 
 
 
