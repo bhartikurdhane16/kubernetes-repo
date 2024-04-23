@@ -13,6 +13,7 @@ metadata:
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
 spec: 
   type: NodePort        #service type
+  port:
 
   containers: 
   - name: first-pod-container1
@@ -22,4 +23,4 @@ spec:
       containerPort: 80           #default port of nginx
            
 
-           cubectl expose pod first-pod -n evc-prod-ns --type NodePort -- port
+           cubectl expose pod first-pod -n evc-prod-ns --type NodePort -- port 80 --targetPort 8081
