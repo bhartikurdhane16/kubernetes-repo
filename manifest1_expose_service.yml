@@ -1,5 +1,5 @@
 #here i am exposing  service to get application access over external natewok.
-# configure kind ( )
+# configure kind ( what to create)
 apiVersion: v1   
 kind: Service      
 metadata:
