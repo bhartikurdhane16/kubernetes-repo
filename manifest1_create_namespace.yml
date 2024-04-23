@@ -1,7 +1,7 @@
 #here i am creating namespace for my first-pod
 
 apiVersion: v1   #api version of pod,   command: cubectl api resources
-kind: Pod       #object type , same command , it define type of k8s resource being use
+kind: Namespace      #object type , same command , it define type of k8s resource being use
 metadata:
     name: first-pod      #pod name
     labels: 
