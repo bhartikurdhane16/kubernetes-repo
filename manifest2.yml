@@ -1,7 +1,8 @@
 # create pod & expose service
 #steps: 
 #namespce-create
-#create pod in ns
+#create pod in namespce
+#expose 
 #
 # plug-in required: autogit & kubernetes
 
