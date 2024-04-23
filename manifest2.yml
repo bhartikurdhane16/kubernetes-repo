@@ -12,8 +12,9 @@ metadata:
     labels:
        app: evc-app
        env: dev
-       
 
+
+#create pod in namespce
 
 
 
