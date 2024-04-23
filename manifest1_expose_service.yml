@@ -1,4 +1,4 @@
-#here i am exposing  service to get access 
+#here i am exposing  service to get application access over external natewok.
 apiVersion: v1   #api version of pod,   command: cubectl api resources
 kind: Pod       #object type , same command , it define type of k8s resource being use
 metadata:
