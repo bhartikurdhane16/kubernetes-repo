@@ -1,6 +1,6 @@
 # guidelines to create simple manifest file to create pods in minikube
 
 steps:
-1. need to create .ymal file to create pod(pod-->).
+1. need to create .ymal file to create pod(pod-->container--->application).
 2. try to acces application within minikube cluster---accessable
-try to access application outside the cluster ----not accessable.
+3. try to access application outside the cluster ----not accessable.
