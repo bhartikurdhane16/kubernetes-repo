@@ -5,4 +5,4 @@ Kind: Pod       #object type , same command
 metadata:
     name: first-pod      #pod name
     labels: 
-           
+         app:    
