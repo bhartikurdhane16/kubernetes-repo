@@ -3,7 +3,7 @@
 apiVersion: v1   
 kind: Service      
 metadata:
-    name: 
+    name: e
     labels: 
          app: nginx 
          env: dev
