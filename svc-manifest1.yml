@@ -6,7 +6,7 @@ kind: Service
 metadata:
     name: first-pod-svc
     labels: 
-         app: nginx 
+         app: evc-app 
          env: dev
          
     namespace: evc-prod-ns  
