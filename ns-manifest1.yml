@@ -9,5 +9,5 @@ metadata:
          env: dev
   
 
-
-kubectl apply -f ns-manifest1.yml 
+#commands
+#kubectl apply -f ns-manifest1.yml 
