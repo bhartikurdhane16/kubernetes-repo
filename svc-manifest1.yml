@@ -1,5 +1,5 @@
 #here i am exposing  service to get application access over external natewok.
-# configure kind :  indicates the type of Kubernetes resource being defined ( what to create)
+# configure kind : kind indicates the type of Kubernetes resource being defined 
 apiVersion: v1   
 kind: Service      
 metadata:
