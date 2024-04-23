@@ -1,4 +1,5 @@
 #here i am exposing  service to get application access over external natewok.
+
 # configure kind : kind indicates the type of Kubernetes resource being defined 
 apiVersion: v1   
 kind: Service      
@@ -9,7 +10,7 @@ metadata:
          env: dev
     namespace: evc-prod-ns  
 
- # configure spec: spec defines the desired state of the resource ()    
+ # configure spec: spec defines the desired state of the resource (mention what we want to create & manage)    
 spec:     #here we specify 
   containers: 
   - name: first-pod-container1
