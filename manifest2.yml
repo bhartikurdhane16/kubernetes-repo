@@ -1,4 +1,4 @@
-# guidelines to create simple manifest file to create pods in minikube
+# creatingpod
 # plug-in required: autogit & kubernetes
 
 steps:
