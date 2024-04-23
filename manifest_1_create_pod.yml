@@ -1,4 +1,4 @@
 #here i am creating pod
 
 piVersion: v1   #api version of pod,   command: cubectl api resources
-Kind:   
+Kind: Pod   
