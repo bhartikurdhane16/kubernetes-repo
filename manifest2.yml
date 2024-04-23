@@ -23,6 +23,7 @@ metadata:
    labels:
        app: evc-app
        env: dev
+names
 spec:
  containers: 
   - name: evc-pod-c1
