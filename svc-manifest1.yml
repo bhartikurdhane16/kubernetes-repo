@@ -9,7 +9,7 @@ metadata:
         #  app: evc-app 
         #  env: dev
          
-    namespace: evc-prod-ns  
+    #namespace: evc-prod-ns  
 
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
 spec: 
