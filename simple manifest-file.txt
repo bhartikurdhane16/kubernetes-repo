@@ -8,4 +8,4 @@ steps:
 2. Namespace: required namespace to create pod, need namespace.yml file
 3. try to acces application within minikube cluster---accessable
 4. try to access application outside the cluster ----not accessable.
-4. to access application from outside the cluster need to espose service, so to expose service create another .yml file
+5. to access application from outside the cluster need to espose service, so to expose service create another .yml file
