@@ -14,7 +14,7 @@ spec:     #here we have to specify pod-->container specification.
           image: nginx
           ports: 
              - name: http
-             
+               containerPort: 80
            
 
 
