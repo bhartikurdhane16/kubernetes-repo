@@ -24,7 +24,13 @@ metadata:
        app: evc-app
        env: dev
 spec:
-       
+ containers: 
+  - name: evc-pod-container1
+    image: nginx
+    ports: 
+    - name: http
+      containerPort: 80           #default port of nginx
+                  
 
 
 
