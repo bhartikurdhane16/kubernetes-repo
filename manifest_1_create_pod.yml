@@ -8,5 +8,5 @@ metadata:
          app: nginx 
          env: dev
     namespace: evc-ns    #namspace where pod should create
-    
+
 
