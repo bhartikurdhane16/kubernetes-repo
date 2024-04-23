@@ -10,7 +10,7 @@ kind: Namespace
 metadata:
     name: evc-ns
     labels:
-       
+       app: evc-app
 
 
 
