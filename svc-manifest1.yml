@@ -25,5 +25,5 @@ spec:
  
            
 
-
-           cubectl expose pod first-pod -n evc-prod-ns --type NodePort -- port 80 --targetPort 8081
+commands
+#cubectl expose pod first-pod -n evc-prod-ns --type NodePort -- port 80 --targetPort 8081
