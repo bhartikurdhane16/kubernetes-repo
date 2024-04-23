@@ -22,4 +22,4 @@ spec:
       containerPort: 80           #default port of nginx
            
 
-           cubectl expose pod first-pod -n evc-
+           cubectl expose pod first-pod -n evc-prod-ns --type 
