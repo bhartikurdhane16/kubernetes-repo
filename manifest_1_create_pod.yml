@@ -9,7 +9,7 @@ metadata:
          env: dev
     namespace: evc-prod-ns    #namspace where pod should create
 spec:     #here we have to specify pod-->container specification.
-    containers: 
+containers: 
         - name: first-pod-container1
           image: nginx
           ports: 
