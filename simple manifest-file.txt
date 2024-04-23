@@ -1,5 +1,5 @@
 # guidelines to create simple manifest file to create pods in minikube
-
+# plug-in
 
 steps:
 
