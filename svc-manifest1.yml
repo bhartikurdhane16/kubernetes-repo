@@ -17,7 +17,7 @@ spec:
   salector:             # Label selector to match Pods for this service
     app: evc-app        #label
   ports:
-    80
+    - name: 80
 
 
  
