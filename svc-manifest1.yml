@@ -8,14 +8,13 @@ metadata:
     labels: 
          app: nginx 
          env: dev
-         app: first-pod-app
-    namespace: evc-prod-ns  
+        namespace: evc-prod-ns  
 
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
 spec: 
   type: NodePort        #service type
   salector:             # Label selector to match Pods for this service
-  
+  app: first-pod-app
   port: 80
 
 
