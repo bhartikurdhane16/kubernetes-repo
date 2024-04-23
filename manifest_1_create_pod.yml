@@ -18,12 +18,3 @@ spec:     #here we have to specify pod-->container specification.
            
 
 
-
-apiVersion: v1
-kind: Pod
-metadata:
-  name: my-pod
-spec:
-  containers:
-  - name: my-container
-    image: nginx
