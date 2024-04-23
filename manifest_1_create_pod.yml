@@ -3,4 +3,4 @@
 piVersion: v1   #api version of pod,   command: cubectl api resources
 Kind: Pod       #object type , same command
 metadata:
-   
+    name: first   
