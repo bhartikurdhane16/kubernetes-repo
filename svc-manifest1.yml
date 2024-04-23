@@ -20,7 +20,7 @@ spec:
     - name: http
       protocol: TCP
       port: 80
-      Target
+      targetPort:8081
 
  
            
