@@ -8,7 +8,7 @@ metadata:
     labels: 
          app: nginx 
          env: dev
-         app: 
+         app: first-pod
     namespace: evc-prod-ns  
 
  # configure spec: spec defines the desired state of the resource (specify resources want to create & manage)    
