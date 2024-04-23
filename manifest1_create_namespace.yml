@@ -3,7 +3,7 @@
 apiVersion: v1   #api version of ns,   command: cubectl api resources
 kind: Namespace      #object type , same command , it define type of k8s resource being use
 metadata:
-    name: first-pod      #pod name
+    name: evc-prod-ns     #pod name
     labels: 
          app: nginx 
          env: dev
