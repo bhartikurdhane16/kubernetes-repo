@@ -5,13 +5,3 @@
 #expose service (type:NodePort) to access service from outside the cluster
 
 #
-# plug-in required: autogit & kubernetes
-
-steps:
-1. 
-
-1. .yml file to create pod(pod-->container--->application).
-2. Namespace: required namespace to create pod, need namespace.yml file
-3. try to acces application within minikube cluster---accessable
-4. try to access application outside the cluster ----not accessable.
-5. to access application from outside the cluster need to espose service, so to expose service create another .yml file
