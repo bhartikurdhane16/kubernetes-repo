@@ -11,6 +11,8 @@ metadata:
     name: evc-ns
     labels:
        app: evc-app
+       env: dev
+       
 
 
 
