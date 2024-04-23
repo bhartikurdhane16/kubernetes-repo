@@ -10,7 +10,7 @@ metadata:
     namespace: evc-prod-ns    #namspace where pod should create
 spec:     #here we have to specify pod-->container specification.
     container: 
-        - 
+        - name: first-pof
 
 
 
