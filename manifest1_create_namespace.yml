@@ -7,12 +7,8 @@ metadata:
     labels: 
          app: nginx 
          env: dev
-    namespace: evc-prod-ns    #namspace where pod should create
+    #namespace: evc-prod-ns    #namspace where pod should create
 spec:     #here we have to specify pod-->container specification.
   pods: 
   - name: first-pod
-    image: nginx
-    ports: 
-    - name: http
-      containerPort: 80           #default port of nginx
-           
+    
