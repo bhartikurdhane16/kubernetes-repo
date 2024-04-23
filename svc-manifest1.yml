@@ -16,15 +16,11 @@ spec:
   type: NodePort        #service type
   salector:             # Label selector to match Pods for this service
     app: evc-app        #label
-  port: 80
+  ports:
+    80
 
 
-  containers: 
-  - name: first-pod-container1
-    image: nginx
-    ports: 
-    - name: http
-      containerPort: 80           #default port of nginx
+ 
            
 
 spec:
